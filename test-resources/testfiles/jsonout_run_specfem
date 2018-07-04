@@ -5,7 +5,7 @@
     
     {
       "TriggeredByProcessIterationID": "decomposeMeshorfeus-as-1290-7a23818c-d448-11e3-b769-10ddb1b266f3",
-      "data": "S'../test-resources/specfem3dseismogram/'\np0\n.",
+      "data": "S'../../test-resources/specfem3dseismogram/'\np0\n.",
       "id": "orfeus-as-1290-7a25a0fd-d448-11e3-9c6e-10ddb1b266f3"
     }
   ],

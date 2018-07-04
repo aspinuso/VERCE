@@ -32,7 +32,7 @@ Ext.define('CF.store.ProvWorkflow', {
     },
 
     api: {
-      read: PROV_SERVICE_BASEURL + 'workflowexecutions?usernames=' + userSN,
+      read: PROV_SERVICE_BASEURL + 'workflowexecutions?wasAssociatedWith=' + userSN,
       update: PROV_SERVICE_BASEURL + 'workflowexecutions',
       destroy: PROV_SERVICE_BASEURL + 'workflow/delete/'
     },

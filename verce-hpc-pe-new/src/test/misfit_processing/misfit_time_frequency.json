@@ -1,0 +1,26 @@
+{   "username":"ddf",
+    "runid":"dasda",
+    "streamProducer": [{
+        "input": {
+        "event_id": "smi:webservices.rm.ingv.it/fdsnws/event/1/query?eventId=1744261",
+            "quakeml": "../../test-resources/misfit-data/quakeml",
+            "stationxml": "../../test-resources/misfit-data/stations/IV.CAFR.xml",
+            "synthetics": ["../../test-resources/misfit-data/output/IV.CAFR.HXR.synthetic.seed",
+                           "../../test-resources/misfit-data/output/IV.CAFR.HXT.synthetic.seed",
+                           "../../test-resources/misfit-data/output/IV.CAFR.HXZ.synthetic.seed"],
+            "data": ["../../test-resources/misfit-data/output/IV.CAFR.HHR.observed.seed",
+                     "../../test-resources/misfit-data/output/IV.CAFR.HHT.observed.seed",
+                     "../../test-resources/misfit-data/output/IV.CAFR.HHZ.observed.seed"],
+            
+            "output_folder": "../../test-resources/misfit-data/output/",
+            "parameters": {
+            "misfit_type": "time_frequency",
+                "min_period": 0.5,
+                "max_period": 10.0,
+                "wavelet_parameter": 6.0
+            }
+            
+        }
+    }]
+}
+
